@@ -17,7 +17,8 @@ nilaibindo  = int(input('Bahasa Indonesia: '))
 nilaipkn = int(input('PKN: '))
 nilaibio  = int(input('Biologi: '))
 nilaifis  = int(input('Fisika: '))
-rata2= int(print('Rata-rata = ',(nilaimath + nilaibindo + nilaieng + nilaipkn + nilaibio + nilaifis) / 6))
+rata2 = int((nilaimath + nilaibindo + nilaieng + nilaipkn + nilaibio + nilaifis) / 6)
+print('Rata-rata =', rata2)
 if(rata2 >= 90 and rata2 <= 100): #jika rata-rata 90-100 maka mendapat nilai A
  print(f'Rata-rata {rata2} mendapat A') 
 elif(rata2 >= 80 and rata2 <= 89): #jika rata-rata 80-89 maka mendapat nilai B
