@@ -7,5 +7,5 @@ print(f'{num % 5}')
 
 
 
-if (5 > 5 and 5 < 8)
-print ('halo')
+if (5 > 5 and 5 < 8):
+ print ('halo')
